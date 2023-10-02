@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/normalize.css">
+    <link rel="stylesheet" href="estilos/index.css">
+</head>
+<body>
+    <article class="card">
+        <div class="card--encabezado">
+            <div class="card--encabezado__opciones">
+                <img src="https://avatars.githubusercontent.com/u/100884761?v=4" alt="Icono usuario">
+                <div class="card--detalles">
+                    <p>CapiDeveloper</p>
+                    <div>
+                        <span>10 min</span>
+                        <img src="img/mundo.svg" alt="Icono svg">
+                    </div>
+                </div>
+            </div>
+            <div class="card--opciones">
+                <button type="button">
+                    <img src="img/puntos.svg" alt="Iconos svg">
+                </button>
+                <button type="button">
+                    <img src="img/cerrar.svg" alt="Iconos svg">
+                </button>
+            </div>
+        </div>
+        <img class="card--imagen" src="img/historial.jpg" alt="Imagen historial">
+        <div class="card--footer">
+            <div class="card--footer__detalles">
+                <div class="card--estadistica">
+                    <p>1</p>
+                    <div>
+                        <div>
+                            <span>507</span>
+                            <img src="img/comentar.svg" alt="Icono svg">
+                        </div>
+                        <div>
+                            <span>179</span>
+                            <img src="img/compartir.svg" alt="Icono svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="caja-reacciones" class="contenedor--reacciones">
+                <ul class="reacciones">
+                    <li>
+                        <img src="gifs/like.gif" alt="Icono gif">
+                    </li>
+                    <li>
+                        <img src="gifs/corazon.gif" alt="Icono gif">
+                    </li>
+                    <li>
+                        <img src="gifs/divierte.gif" alt="Icono gif">
+                    </li>
+                    <li>
+                        <img src="gifs/enoja.gif" alt="Icono gif">
+                    </li>
+                    <li>
+                        <img src="gifs/triste.gif" alt="Icono gif">
+                    </li>
+                </ul>
+            </div>
+            <ul class="footer--opciones">
+                <li id="reaccionar">
+                    <img id="icono-reaccion" src="img/like.svg" alt="Icono svg">
+                    <span id="reaccion-descripcion">Me gusta</span>
+                </li>
+                <li>
+                    <img src="img/comentar.svg" alt="Icono svg">
+                    <span>Comentar</span>
+                </li>
+                <li>
+                    <img src="img/compartir.svg" alt="Icono svg">
+                    <span>Compartir</span>
+                </li>
+            </ul>
+        </div>
+    </article>
+    <script src="index.js"></script>
+</body>
+</html>
